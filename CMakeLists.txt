@@ -23,7 +23,7 @@ set(INCLUDE_DIRS include)
 include_directories(${ament_cmake_INCLUDE_DIRS} ${INCLUDE_DIRS})
 
 ## Declare a C++ library
-set(LIBS_FILES src/zlac706_driver/zlac706_driver.cpp src/zlac706_driver/AsyncSerial.cpp)
+set(LIBS_FILES src/zlac706_driver/zlac706_driver.cpp src/zlac706_driver/AsyncSerial.cpp src/zlac706_driver/wheels_writer.cpp)
 
 
 add_library(${PROJECT_NAME}_LIBRARIES ${LIBS_FILES} ${INCLUDE_DIRS})
