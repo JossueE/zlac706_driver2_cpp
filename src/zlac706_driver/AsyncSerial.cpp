@@ -33,8 +33,8 @@
 #include <algorithm>
 #include <thread>
 #include <mutex>
-//#include <boost/bind.hpp> //Se agregó #include <boost/bind/bind.hpp> para evitar un warning importante
-// Solución encontrada en https://github.com/boostorg/python/issues/359
+//#include <boost/bind.hpp> // Replaced with <boost/bind/bind.hpp> to avoid a compilation warning
+// Solution found at https://github.com/boostorg/python/issues/359
 #include <boost/bind/bind.hpp> 
 #include <boost/shared_array.hpp>
 
